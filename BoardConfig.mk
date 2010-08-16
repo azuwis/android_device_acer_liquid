@@ -58,7 +58,7 @@ BOARD_USES_QCOM_LIBS := true
 
 BOARD_USES_ECLAIR_LIBCAMERA := true
 
-PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=\$(TOP)/acer/liquid/prelink-linux-arm-liquid.map
+PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=\$(TOP)/device/acer/liquid/prelink-linux-arm-liquid.map
 
 # # cat /proc/mtd
 # dev:    size   erasesize  name

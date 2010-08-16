@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/base/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
     frameworks/base/data/etc/android.hardware.touchscreen.multitouch.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
-    frameworks/base/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+    frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # media config xml file
 PRODUCT_COPY_FILES += \
@@ -69,9 +69,13 @@ PRODUCT_PACKAGES += \
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
+    device/acer/liquid/a1-keypad.kcm.bin:system/usr/keychars/a1-keypad.kcm.bin \
+    device/acer/liquid/acer-hs-butt.kcm.bin:system/usr/keychars/acer-hs-butt.kcm.bin \
+    device/acer/liquid/avr.kcm.bin:system/usr/keychars/avr.kcm.bin \
     device/acer/liquid/a1-keypad.kl:system/usr/keylayout/a1-keypad.kl \
-    device/acer/liquid/liquid-keypad.kcm.bin:system/usr/keychars/liquid-keypad.kcm.bin \
-    device/acer/liquid/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl
+    device/acer/liquid/acer-hs-butt.kl:system/usr/keylayout/acer-hs-butt.kl \
+    device/acer/liquid/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/acer/liquid/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
 
 # Liquid uses high-density artwork where available
 PRODUCT_LOCALES += hdpi

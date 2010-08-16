@@ -161,3 +161,29 @@ libtrace_test.so        0x5A300000
 libsrec_jni.so          0x5A200000
 libcerttool_jni.so      0x5A100000
 
+# added for CM build
+libiprouteutil.so       0x5A000000 # [~1M] for external/iproute2
+libnetlink.so           0x59F00000 # [<64K] for external/iproute2
+libpagemap.so           0x59E00000 # [<64K] for system/extras/libpagemap
+libstlport.so           0x59B00000 # [~3M] for external/stlport
+libzxing.so             0x59A00000 # [<64K] for goggles
+libinterstitial.so      0x59900000 # [<64K] for goggles
+liblept.so              0x59400000 # [~5M] for external/leptonica
+libETC1.so              0x59300000 # [<64K]
+libFLAC.so              0x59200000 # [???]
+libstagefright_amrnb_common.so     0x59100000 # [~1M]
+libstagefright_avc_common.so       0x59000000 # [~1M]
+libstagefright_color_conversion.so 0x58F00000 # [<64K]
+libstagefright_omx.so              0x58E00000 # [~1M]
+libstagefrighthw.so                0x58D00000 # [~1M]
+libstagefright.so                  0x58900000 # [~4M]
+libdiskconfig.so        0x58800000 # [<64K]
+libemoji.so             0x58700000 # [<64K]
+libjni_latinime.so      0x58600000 # [~1M]
+libjni_pinyinime.so     0x58500000 # [~1M]
+libttssynthproxy.so     0x58400000 # [~1M] for frameworks/base
+libttspico.so           0x58200000 # [~2M] for external/svox
+libskiagl.so            0x58100000 # [~1M]
+libreference-cdma-sms.so 0x58000000 # [<64K] for hardware/ril
+libSR_AudioIn.so        0x57F00000 # [~1M] for external/srec
+libjnigraphics.so       0x57E00000 # [<64K]
