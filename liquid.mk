@@ -31,7 +31,8 @@ endif # TARGET_PREBUILT_KERNEL
 ## (1) First, the most specific values, i.e. the aspects that are specific to GSM
 
 PRODUCT_COPY_FILES += \
-    device/acer/liquid/init.salsa.rc:root/init.salsa.rc
+    device/acer/liquid/init.salsa.rc:root/init.salsa.rc \
+    device/acer/liquid/init.salsa.sh:root/init.salsa.sh
 
 ## (2) Also get non-open-source GSM-specific aspects if available
 $(call inherit-product-if-exists, vendor/acer/liquid/liquid-vendor.mk)
