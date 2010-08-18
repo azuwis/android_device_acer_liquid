@@ -1,1 +1,9 @@
-* gps.conf is pull from acer official 1.100.39 ROM
+* Files
+
+  gps.conf is pull from acer official 1.100.39 ROM
+
+* Build boot.img
+
+  $ ./tools/liquidmkbootimg --kernel kernel --ramdisk ramdisk.img --deploy 1 -o boot.img
+
+  See http://android.modaco.com/content/acer-liquid-liquid-modaco-com/301806/liquid-kernel-source-build/ for more info.
