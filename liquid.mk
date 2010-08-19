@@ -87,7 +87,8 @@ PRODUCT_COPY_FILES += \
     device/acer/liquid/gps.conf:system/etc/gps.conf
 
 PRODUCT_COPY_FILES += \
-   device/acer/liquid/dhd.ko:system/etc/wifi/dhd.ko
+   device/acer/liquid/dhd.ko:system/etc/wifi/dhd.ko \
+   device/acer/liquid/bcm4329.ko:system/lib/modules/bcm4329.ko
 
 $(call inherit-product-if-exists, vendor/acer/liquid/liquid-vendor.mk)
 
